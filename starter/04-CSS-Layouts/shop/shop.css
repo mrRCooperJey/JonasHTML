@@ -9,16 +9,6 @@ body {
   line-height: 1.4;
 }
 
-.container {
-  background-color: red;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .product-img {
   float: left;
   margin-right: 40px;
@@ -159,4 +149,5 @@ body {
   color: #000;
   background-color: #fff;
 }
+
 

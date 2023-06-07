@@ -8,20 +8,19 @@
   <title>CSS Grid</title>
   <style>
     .el--1 {
+
       background-color: blueviolet;
+
     }
 
     .el--2 {
       background-color: orangered;
-      /* grid-column: 1 / -1; */
-      grid-column: 1/ -1;
-      grid-row: 2;
+
     }
 
     .el--3 {
       background-color: green;
       height: 150px;
-
     }
 
     .el--4 {
@@ -41,52 +40,38 @@
     }
 
     .el--8 {
-      grid-column: 2 / 3;
-      grid-row: 1 / 2;
       background-color: crimson;
     }
 
-    .container--1 {
-      /* STARTER */
-      font-family: sans-serif;
-      background-color: #ddd;
-      font-size: 32px;
-      margin: 40px;
-      /* CSS GRID */
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      gap: 40px 20px;
 
-    }
 
     .container--2 {
-      display: none;
+
       /* STARTER */
       font-family: sans-serif;
       background-color: black;
       font-size: 40px;
-      margin: 100px;
+      margin: 40px;
 
-      width: 1000px;
+      width: 700px;
       height: 600px;
 
       /* CSS GRID */
+      display: grid;
+      grid-template-columns: 125px 200px 125px;
+      grid-template-rows: 250px 100px;
+
+      gap: 50px;
+      justify-content: center;
+      align-content: center;
+
+      align-items: center;
+      justify-items: end;
     }
   </style>
 </head>
 
 <body>
-  <div class="container--1">
-    <div class="el el--1">(1) HTML</div>
-    <div class="el el--2">(2) and</div>
-    <div class="el el--3">(3) CSS</div>
-    <div class="el el--4">(4) are</div>
-    <div class="el el--5">(5) amazing</div>
-    <div class="el el--6">(6) languages</div>
-    <div class="el el--7">(7) to</div>
-    <div class="el el--8">(8) learn</div>
-  </div>
 
   <div class="container--2">
     <div class="el el--1">(1)</div>
