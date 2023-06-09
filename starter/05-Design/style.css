@@ -11,7 +11,6 @@ FONT SIZE SYSTEM (px)
   GREY COLOR: #343a40
 */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +21,7 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
 }
@@ -51,7 +50,7 @@ h2 {
 
 .btn:link,
 .btn:visited {
-  background-color:  #087f5b;
+  background-color: #087f5b;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -169,7 +168,6 @@ img {
 
 .chair-box {
   padding: 24px;
-
 }
 
 h3 {
@@ -180,7 +178,6 @@ h3 {
 .chair-details {
   list-style: none;
   margin-bottom: 24px;
-  
 }
 
 .chair-details li {
@@ -211,9 +208,3 @@ footer {
   font-size: 14px;
   color: #495057;
 }
-
-
-
-
-
-
